@@ -28,7 +28,7 @@ function App() {
     } else {
       alert('Le navigateur ne supporte pas cela, besoin de votre position');
     }
-  });
+  }, []);
 
   return (
     <div className="App" style={{ height: '100vh', width: '100%' }}>
